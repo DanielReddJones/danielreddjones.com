@@ -1,6 +1,6 @@
-baseURL: https://danielreddjones.com
+baseURL: https://www.danielreddjones.com
 languageCode: "en-us"
-title: "Daniel Jones CV"
+title: "Daniel Jones portfolio"
 theme: hugo-profile
 
 outputs:
