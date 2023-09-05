@@ -54,7 +54,7 @@ Menus:
 
 params:
   title: "Daniel Jones Portfolio"
-  description: Daniel Jones Portfolio
+  description: portfolio and CV of Daniel Jones
   # staticPath: ""  # The path to serve the static files from
   favicon: /fav.svg
 
