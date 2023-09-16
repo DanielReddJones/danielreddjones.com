@@ -119,8 +119,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Daniel Jones"
-    subtitle: "I am a C++ and Rust programmer."
-    content: "A passionate embedded systems programmer. I like to make fast, efficient, and clean code that runs on many systems. I currently work as a systems analyst at LeTourneau University, but am seeking to pivot into embedded systems."
+    subtitle: "Business Systems Analyst"
+    content: "I am a passionate Business Systems Analyst. I cut my teeth as a help desk employee in Dallas Texas. I quickly pivoted into systems analyses and have since specialized in Linux and Cloud technology"
     image: /me.JPG
     bottomImage:
       enable: true
@@ -149,19 +149,19 @@ params:
     image: "/me2.jpg"
     roundImage: false
     content: |-
-      I am a software developer with a passion for embedded development. I have a background in computer information systems, and have primarily worked in the realm of Information Technology. In my spare time I am always programming, and I have decided that I want to pursue this as a full-time job. 
+      I am a systems analyst with three years of IT experience. My specialty is in Linux, networking, python scripting, and cloud technology.
 
-      I am currently working on a project called Bibliofile that will allow people with low-end hardware to read ebooks, helping spread the love of literature to low-income communities.
+      I am currently researching AI and machine learning because I feel that this is the next evolution in the field of Information Technology.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "C"
-        - "C++"
+        - "Linux"
+        - "Bash"
         - "Python"
-        - "QT"
-        - "CLion"
-        - "Rust"
+        - "AWS"
+        - "Javascript"
+        - "Docker"
 
   # Experience
   experience:
@@ -176,7 +176,14 @@ params:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I currently work as a systems analyst at LeTourneau University. My job requirements include analyzing faulty code, ensuring the smooth running of back-end scripts, and managing user permissions. I am currently part of a project that includes us changing our ERP to a cloud-based solution."
+        content: |
+          I currently work as a systems analyst at LeTourneau University. My job requirements include analyzing faulty code, ensuring the smooth running of back-end scripts, and managing user permissions. I am currently part of a project that includes us changing our ERP to a cloud-based solution.
+          The tools I use the most on the job are:
+          - Linux
+          - Docker
+          - Javascript
+          - Vim
+          - HTML
 
       - job: "Help Desk"
         company: "IT Yall"
@@ -189,7 +196,7 @@ params:
           enable: true
           content: I worked as a help desk employee at IT Yall.
         content: |
-          I worked as a help desk employee at IT Yall. While my primary work was help-desk related, I built a C# application to automate our computer tune-up process that saved the company 15 minutes per customer.
+          I worked as a help desk employee at IT Yall. While my primary work was help-desk related, I built a C# application to automate our computer tune-up process that saved the company 15 minutes per end user.
           - Lead developer of their proprietary PC tune-up software.
           - set up wired networks for end-user locations.
           - wrote batch scripts to automate repeatable work such as the new computer onboarding process.
@@ -239,68 +246,61 @@ params:
 
   # Achievements
   achievements:
-    enable: false
-    title: "Volunteer Work"
+    enable: true
+    title: "Certifications"
     items:
-      - title: Network Admin and Media Manager (2021 - current)
-        content: Worked as media manager and Network Admiinistrator for Longview First Church. 
-        url: https://www.longviewfirst.com/
-        image: https://s3-media0.fl.yelpcdn.com/bphoto/H5JSX44NgJwxqTy_2T24kQ/o.jpg
-      - title: Phi Theta Kappa (2016-2017)
-        content: Phi Theta Kappa is a volunteer fraternity that seeks to provide help to those in need. While a member, I assisted in mailing Christmas cards to the people in hospitals.
-        image: https://www.ptk.org/wp-content/themes/ptk/images/logo.svg
-      - title: Civil Air Patrol(2011 - 2013)
-        content: Civil Air Patrol is the Air Force auxillary for civilian teenagers to volunteer their time. While enrolled I assisted primarily in visiting veterans at the VA.
-        url: "https://www.gocivilairpatrol.com/"
-        image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Seal_of_the_United_States_Civil_Air_Patrol.svg/1024px-Seal_of_the_United_States_Civil_Air_Patrol.svg.png
+      - title: CompTIA Secure Infrastructure Specialist – CSIS
+        content: The CSIS certification is a stackable certification that says that I have met the requirements of, and passed, the CompTIA A+, Network+, and Security+. With this certification I can implement, troubleshoot, and secure office network systems.
+        image: CompTIA_CSIS.png
+        url: https://www.credly.com/badges/4b8137d9-b549-4c10-bf27-ddc46ead96c0/public_url
+      - title: AWS Certified Practitioner
+        content: The AWS Certified Cloud Practitioner teaches the basics of cloud technology, and how to optimize the allocation of resources to minimize cost.
+        image: AWS_practitioner.png
+        url: https://www.credly.com/badges/c2a82281-d625-4eb9-93d6-ec12bc1f953d/public_url
+      - title: AWS Cloud Solutions Architect Associate (expected, October 30th 2023)
+        content: Currently studying for, expected to pass on October 30th 2023. The AWS Cloud Solutions Architect Associate builds off of the practitioner certification, and teaches secure cloud infrastructure, troubleshooting methods, and how to effectively use the AWS command line to allocate resources.
+        image: AWS_solutions_associate.png
 
 
   #TODO: enable once projects are done.
   # projects
   projects:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
-      - title: Bibliofile
-        content: An E-Reader with both TUI and GUI versions available. The purpose of this project is to help spread the love of books by providing low-resource intensive software
-        image: /images/projects/profile.png
+      - title: Server Migration Project
+        company: LeTourneau University
+        content: Migrated server and related docker containers from CentOS to Debian servers. Enabled and configured server 2FA, single sign-on, and docker.
+        image: letu.webp
         featured:
-          name: Download
-          link: https://hugo-profile.netlify.app
+          name: LeTourneau University
+          link: https://letu.edu
         badges:
-          - "Rust"
-          - "QT"
-          - "TUIkit"
-        links:
-          - icon: fab fa-git
-            url: https://git.whoisthisjoker.com/Daniel/bibliofile
+          - "Debian"
+          - "Docker"
           
-      - title: Daily Bread
-        content: C++ QT6 widget that displays Bible verses daily to the end-user.
-        image: /images/projects/converter.jpg
+      - title: PC Tuner
+        content: C# PC tune-up tool that automated disabling unneeded services and startup programs. Saved IT Yall 15 minutes per end user. The C# front end ran batch scripts as a process that would enable and disable Windows systems to optimize performance.
+        image: it_yall.jpg
         featured:
-          name: Download
-          link: https://git.whoisthisjoker.com/Daniel/DailyBread
+          name: IT Yall
+          link: https://ityall.com
         badges:
-          - "C++ 17"
-          - "QT 6"
-        links:
-          - icon: fab fa-git
-            url: https://github.com/gurusabarish/converter
+          - "C#"
+          - ".net"
+          - "batch"
 
       - title: Empire Dice
-        content: Android app for the Table Top Roleplaying system "Edge of the Empire.""
-        image: /images/projects/profile2.jpg
+        content: Android™ player sheet manager for the Table Top Roleplaying system "Edge of the Empire." Created as a personal project to mitigate the damage of the game's discontinuation, as it uses proprietary sheets and dice that are no longer in production.
+        image: android.webp
         featured:
-          name: Download
-          link: https://hugo-profile-2.netlify.app
+          name: GIT repo
+          link: https://git.whoisthisjoker.com/Daniel/empiredice
         badges:
           - "Android"
           - "Kotlin"
           - "Android Studio"
-        links:
-          - icon: fab fa-git
-            url: https://github.com/gurusabarish/HugoProfileV2
+
 
   #Contact
   contact:
