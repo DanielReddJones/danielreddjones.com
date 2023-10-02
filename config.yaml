@@ -255,17 +255,14 @@ params:
         url: https://www.credly.com/badges/4b8137d9-b549-4c10-bf27-ddc46ead96c0/public_url
       - title: AWS Certified Practitioner
         content: The AWS Certified Cloud Practitioner teaches the basics of cloud technology, and how to optimize the allocation of resources to minimize cost.
-        image: AWS_practitioner.png
+        image: aws_practitioner.png
         url: https://www.credly.com/badges/c2a82281-d625-4eb9-93d6-ec12bc1f953d/public_url
-      - title: AWS Cloud Solutions Architect Associate (expected, October 30th 2023)
-        content: Currently studying for, expected to pass on October 30th 2023. The AWS Cloud Solutions Architect Associate builds off of the practitioner certification, and teaches secure cloud infrastructure, troubleshooting methods, and how to effectively use the AWS command line to allocate resources.
-        image: AWS_solutions_associate.png
 
 
   #TODO: enable once projects are done.
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Server Migration Project
