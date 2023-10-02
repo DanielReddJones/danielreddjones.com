@@ -73,7 +73,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    defaultTheme: "light" # dark
+    defaultTheme: "dark"
 
   font:
     fontSize: 1rem # default: 1rem
@@ -120,7 +120,7 @@ params:
     intro: "Hi, my name is"
     title: "Daniel Jones"
     subtitle: "Business Systems Analyst"
-    content: "I am a passionate Business Systems Analyst. I cut my teeth as a help desk employee in Dallas Texas. I quickly pivoted into systems analyses and have since specialized in Linux and Cloud technology"
+    content: "I am a passionate Business Systems Analyst. I started out as a help desk employee in Dallas Texas, however, I quickly pivoted into systems analyses and have since specialized in Linux and Cloud technology"
     image: /me.JPG
     bottomImage:
       enable: true
