@@ -1,6 +1,6 @@
 baseURL: https://www.danielreddjones.com
 languageCode: "en-us"
-title: "Daniel Jones portfolio"
+title: "Daniel Jones CV"
 theme: hugo-profile
 
 outputs:
@@ -54,7 +54,7 @@ Menus:
 
 params:
   title: "Daniel Jones Portfolio"
-  description: Daniel Jones CV
+  description: Daniel Jones Resume/CV
   # staticPath: ""  # The path to serve the static files from
   favicon: /fav.svg
 
