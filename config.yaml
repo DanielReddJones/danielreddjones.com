@@ -103,7 +103,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Daniel Jones Portfolio" # Brand name for the brand | default is the title variable
+    brandName: "Daniel Jones CV" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
     menus:
@@ -120,7 +120,7 @@ params:
     intro: "Hi, my name is"
     title: "Daniel Jones"
     subtitle: "Business Systems Analyst"
-    content: "I am a passionate Business Systems Analyst. I started out as a help desk employee in Dallas Texas, however, I quickly pivoted into systems analyses. I pride myself on being a jack of all trades that can handle any problem given to me, no matter how obscure the software, programming language, or framework may be."
+    content: "I am a passionate Business Systems Analyst. I started out as a help desk employee in Dallas Texas, however, I quickly pivoted into systems analyses. I pride myself on being a jack of all trades that can handle any problem given to me, no matter how obscure the software, hardware, programming language, or framework may be."
     image: /me.JPG
     bottomImage:
       enable: true
@@ -128,7 +128,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "resume.pdf"
+      url: "DanielJonesResume.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -168,22 +168,25 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Systems Analyst"
+      - job: "Systems Support Analyst"
         company: "LeTourneau University"
         companyUrl: "https://letu.edu"
         date: "Dec 2021 - present"
         featuredLink:
           enable: false
-          name: "View the project"
-          url: "https://example.com"
+          name: "letu.edu"
+          url: "https://www.letu.edu/offices/administration-finance/it/staff.html#ContentBlock-1-3"
+          info:
+            enable: true
+            content: LeTourneau was my Alma Mater, and eventual work environment.
         content: |
-          I currently work as a systems analyst at LeTourneau University. My job requirements include analyzing faulty code, ensuring the smooth running of back-end scripts, and managing user permissions. I am currently part of a project that includes us changing our ERP to a cloud-based solution.
-          The tools I use the most on the job are:
-          - Linux
-          - Docker
-          - Javascript
-          - Vim
-          - HTML
+          After working at IT Yall, I decided to pivot into a more advanced role and ended up working at my Alma Mater who was looking for someone with my level of curiosity.
+          
+          My job requirements include: 
+          - Designing, testing, and implementing solutions for server-side issues
+          - Writing complex SQL queries to modify test and production tables
+          - Ensuring the smooth running of back-end PHP web scripts, and fix bugs when they appear
+          - Managing user permissions via Linux commands such as chmod
 
       - job: "Help Desk"
         company: "IT Yall"
@@ -196,11 +199,47 @@ params:
           enable: true
           content: I worked as a help desk employee at IT Yall.
         content: |
-          I worked as a help desk employee at IT Yall. While my primary work was help-desk related, I built a C# application to automate our computer tune-up process that saved the company 15 minutes per end user.
-          - Lead developer of their proprietary PC tune-up software.
-          - set up wired networks for end-user locations.
-          - wrote batch scripts to automate repeatable work such as the new computer onboarding process.
+          Upon graduating from LeTourneau University, I had the opportunity to work at IT Yall to get myself started in the industry. While my primary work was help-desk related, I built a C# application to automate our computer tune-up process that saved the company 15 minutes per end user. 
+          
+          Some of my accomplishments while working there include:
+          - Lead developer of their proprietary PC tune-up software
+          - Set up wired networks for end-user locations
+          - Wrote batch scripts to automate repeatable work such as the new computer onboarding process
 
+      - job: "Cashier"
+        company: "Home Depot"
+        companyUrl: "Homedepot.com"
+        date: "May 2016 - January 2021"
+        featuredLink:
+          enable: false
+          url: "https://www.homedepot.com/l/Longview/TX/Longview/75605/6545"
+        info:
+          enable: true
+          content: My second job was as a cashier at Home Depot in Paris Texas. I later transferred to the Longview Texas location.
+        content: |
+          After working at Brookshire's, I moved on to work at the Home Depot in Paris Texas because it was closer to Paris Junior College, where I was attending business classes. After graduating at PJC in May 2017, I transferred to the location in Longview Texas so that I could financially support myself while attending LeTourneau University.
+          While here my responsibilities included:
+          - Recieving payments for transactions
+          - Lifting heavy objects into vehicles if no lot loader was available
+          - Meeting the credit card sale quota weekly
+
+      - job: "Courtesy Clerk"
+        company: "Brookshires Grocery Company"
+        companyUrl: "https://www.brookshires.com/sm/pickup/rsid/1928/store-information/Mount%20Vernon/58"
+        date: "November 2013 - May 2016"
+        featuredLink:
+          enable: false
+          url: "https://www.brookshires.com/sm/pickup/rsid/1928/store-information/Mount%20Vernon/58"
+        info:
+          enable: true
+          content: My first job was a courtesy clerk at Brookshire's Grocery Company in Mount Vernon Texas
+        content: |
+          In 2013 I was a teenager looking for a job. I wasn't attending college at the time, so any job within driving distance of home worked for me. I started at Brookshire's in November 2013 during the Thanksgiving rush. 
+          My job responsibilities included: 
+           - Taking groceries to outside vehicles
+           - Cleaning messes and spills to prevent slips and falls
+           - Maintaining front end orderliness
+          After a few months of being a courtesy clerk, I got promoted to a Cashier.
   # Education
   education:
     enable: true
