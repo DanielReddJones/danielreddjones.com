@@ -343,7 +343,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: If I sound like a great fit for your project/company, email me below and I will quickly respond!
-    email: danielreddjones@protonmail.com
+    email: djones@danielreddjones.com
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
