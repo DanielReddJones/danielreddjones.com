@@ -358,7 +358,8 @@ params:
       title: Recent Posts
       enable: false
       disableFeaturedImage: false
- 
+
+
 
   # List pages like blogs and posts
   listPages:
