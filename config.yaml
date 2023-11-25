@@ -61,7 +61,7 @@ params:
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
   # Note the lack of "" in true, it should be of boolean type.
-  useBootstrapCDN: false
+  useBootstrapCDN: true
 
   # If you want to load dynamically responsive images from Cloudinary
   # This requires your images to be uploaded + hosted on Cloudinary
@@ -301,41 +301,22 @@ params:
   #TODO: enable once projects are done.
   # projects
   projects:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
-      - title: Server Migration Project
-        company: LeTourneau University
-        content: Migrated server and related docker containers from CentOS to Debian servers. Enabled and configured server 2FA, single sign-on, and docker.
-        image: letu.webp
+      - title: Bibliofile
+        company: Personal Project
+        content: Rust program that allows end users to read epub files on the Linux terminal.
+        image: /bibliofile2.png
         featured:
-          name: LeTourneau University
-          link: https://letu.edu
+          name: Code
+          link: https://git.whoisthisjoker.com/Daniel/bibliofile
         badges:
-          - "Debian"
-          - "Docker"
+          - "Rust"
+          - "Linux"
+          - "HTML"
           
-      - title: PC Tuner
-        content: C# PC tune-up tool that automated disabling unneeded services and startup programs. Saved IT Yall 15 minutes per end user. The C# front end ran batch scripts as a process that would enable and disable Windows systems to optimize performance.
-        image: it_yall.jpg
-        featured:
-          name: IT Yall
-          link: https://ityall.com
-        badges:
-          - "C#"
-          - ".net"
-          - "batch"
 
-      - title: Empire Dice
-        content: Android™ player sheet manager for the Table Top Roleplaying system "Edge of the Empire." Created as a personal project to mitigate the damage of the game's discontinuation, as it uses proprietary sheets and dice that are no longer in production.
-        image: android.webp
-        featured:
-          name: GIT repo
-          link: https://git.whoisthisjoker.com/Daniel/empiredice
-        badges:
-          - "Android"
-          - "Kotlin"
-          - "Android Studio"
 
 
   #Contact
