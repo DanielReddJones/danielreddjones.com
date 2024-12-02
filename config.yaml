@@ -120,7 +120,7 @@ params:
     intro: "Hi, my name is"
     title: "Daniel Jones"
     subtitle: "Business Systems Analyst"
-    content: "I am a passionate Business Systems Analyst. I started out as a help desk employee in Dallas Texas, however, I quickly pivoted into systems analyses. I pride myself on being a jack of all trades that can handle any problem given to me, no matter how obscure the software, hardware, programming language, or framework may be."
+    content: "I am a passionate Business Systems Analyst. I started out as a help desk employee in Dallas Texas, however, I quickly escalated my career, and now work full-time as a systems analyst. I pride myself on being a jack of all trades that can handle any problem given to me, no matter how obscure the software, hardware, programming language, or framework may be."
     image: /me.JPG
     bottomImage:
       enable: true
@@ -134,7 +134,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-git
-          url: https://git.whoisthisjoker.com
+          url: https://gitea.whoisthisjoker.com
         - icon: fab fa-youtube
           url: https://www.youtube.com/@danjoredd
         - icon: fab fa-linkedin
@@ -149,7 +149,7 @@ params:
     image: "/me2.jpg"
     roundImage: false
     content: |-
-      I am a systems analyst with three years of IT experience. My specialty is in Linux, networking, python scripting, and cloud technology.
+      I am a systems analyst with four years of IT experience. My specialty is in Linux, networking, python scripting, and cloud technology.
 
       I am currently researching AI and machine learning because I feel that this is the next evolution in the field of Information Technology.
     skills:
@@ -159,7 +159,7 @@ params:
         - "Linux"
         - "Bash"
         - "Python"
-        - "AWS"
+        - "SQL"
         - "Javascript"
         - "Docker"
 
@@ -167,11 +167,31 @@ params:
   experience:
     enable: true
     # title: "Custom Name"
+
     items:
+      - job: "Systems Analyst"
+        company: "The Fikes Companies"
+        companyUrl: "https://www.fikesinc.com/"
+        date: "Nov 2024 - current"
+        featuredLink:
+          enable: false
+          url: "https://www.fikesinc.com/"
+        info:
+          enable: true
+          content: I worked as a Systems Analyst employee at The Fikes Companies.
+        content: |
+          In 2024 I was offered a remote position for The Fikes Companies which is the parent company for Cefco. I work as a systems analyst, and frequently work in SQL, Powershell, and Windows Server.
+          
+          Some of my accomplishments while working there include:
+          - Writing Powershell scripts to automate server tasks
+          - Writing/Editing SQL Stored Procedures
+          - Attending meetings with vendors to determine solutions for Business-to-Business software
+          - Use PDI to manage user permissions, edit automated tasks, and view reports 
+
       - job: "Systems Support Analyst"
         company: "LeTourneau University"
         companyUrl: "https://letu.edu"
-        date: "Dec 2021 - present"
+        date: "Dec 2021 - Nov 2024"
         featuredLink:
           enable: false
           name: "letu.edu"
