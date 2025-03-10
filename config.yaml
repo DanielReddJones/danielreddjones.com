@@ -149,9 +149,9 @@ params:
     image: "/me2.jpg"
     roundImage: false
     content: |-
-      I am a systems analyst with four years of IT experience. My specialty is in Linux, networking, python scripting, and cloud technology.
+      I am a systems analyst with four years of IT experience. My specialty is in Linux, networking, SQL, and cloud technology.
 
-      I am currently researching AI and machine learning because I feel that this is the next evolution in the field of Information Technology.
+      I am currently studying for my Cisco CCNA certification, and my CompTIA Linux+ certification. I hope to achieve both by August.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -226,40 +226,7 @@ params:
           - Set up wired networks for end-user locations
           - Wrote batch scripts to automate repeatable work such as the new computer onboarding process
 
-      - job: "Cashier"
-        company: "Home Depot"
-        companyUrl: "Homedepot.com"
-        date: "May 2016 - January 2021"
-        featuredLink:
-          enable: false
-          url: "https://www.homedepot.com/l/Longview/TX/Longview/75605/6545"
-        info:
-          enable: true
-          content: My second job was as a cashier at Home Depot in Paris Texas. I later transferred to the Longview Texas location.
-        content: |
-          After working at Brookshire's, I moved on to work at the Home Depot in Paris Texas because it was closer to Paris Junior College, where I was attending business classes. After graduating at PJC in May 2017, I transferred to the location in Longview Texas so that I could financially support myself while attending LeTourneau University.
-          While here my responsibilities included:
-          - Recieving payments for transactions
-          - Lifting heavy objects into vehicles if no lot loader was available
-          - Meeting the credit card sale quota weekly
 
-      - job: "Courtesy Clerk"
-        company: "Brookshires Grocery Company"
-        companyUrl: "https://www.brookshires.com/sm/pickup/rsid/1928/store-information/Mount%20Vernon/58"
-        date: "November 2013 - May 2016"
-        featuredLink:
-          enable: false
-          url: "https://www.brookshires.com/sm/pickup/rsid/1928/store-information/Mount%20Vernon/58"
-        info:
-          enable: true
-          content: My first job was a courtesy clerk at Brookshire's Grocery Company in Mount Vernon Texas
-        content: |
-          In 2013 I was a teenager looking for a job. I wasn't attending college at the time, so any job within driving distance of home worked for me. I started at Brookshire's in November 2013 during the Thanksgiving rush. 
-          My job responsibilities included: 
-           - Taking groceries to outside vehicles
-           - Cleaning messes and spills to prevent slips and falls
-           - Maintaining front end orderliness
-          After a few months of being a courtesy clerk, I got promoted to a Cashier.
   # Education
   education:
     enable: true
